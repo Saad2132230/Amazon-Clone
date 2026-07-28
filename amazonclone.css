@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color:#0f1111;
+    height :60px;
+display:flex;
+
+
+}
+.location{
+    margin-left:65px;
+
+    color:white;
+}
+.text1{
+    color:rgb(210, 211, 212);
+    margin-left:26px;
+    margin-bottom: 5px;
+     font-size: 14px;
+     margin-top: 10px;
+}
+.ti{
+    font-size: 19px;
+    display:flex;
+   justify-content:space-between;
+
+}
+.text2{
+    margin-left: 5px;
+}
+
+
+.search{
+ 
+    display:flex;
+    margin-left:50px;
+    align-items: center;
+     
+}
+.input{
+    
+    width:600px;
+    height:40px;
+    border:none;
+    outline:none;
+    padding-left:10px;
+        
+   
+}
+.dropdown{
+      
+   width:50px;
+    height:40px;
+    border:none;
+    background:#f3f3f3;
+   border-radius:5px 0 0 5px;     /* Top Left | Top Right | Bottom Right | Bottom Left */
+}
+/* .search-icon{
+    width:45px;
+    height:40px;
+    background:#febd69;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:0 5px 5px 0;
+} */
+
+
+.search-icon{
+    background-color: #febd69;
+    margin-top:5px;
+    margin-bottom:5px;
+height:40px;
+width:40px;
+align-items:center;
+display:flex;
+border-radius:0 5px 5px 0;
+}
+.search-icon i{
+    margin-left:9px;
+}
+.flagdropdown{
+    display:flex;
+
+}
+.flagdropdown select{
+    height:40px;
+    width:50px;
+    background-color:transparent;
+    border-color: transparent;
+    color:white;
+    justify-content:space-between;
+    
+}
+.flagdropdown img{
+    margin-top:15px;
+    margin-left:30px;
+    margin-bottom:10px;
+    width:30px;
+    height:30px;
+}
+.select{
+
+ margin-top:10px;
+ font-size: 15px;
+
+}
+
+
+
+/* ========================= */
+/* Sign In Section */
+/* ========================= */
+
+.signin{
+    color:white;
+    margin-left:70px;
+    margin-top:15px;
+    cursor:pointer;
+}
+
+.line1{
+    font-size:12px;
+    color:#d6d6d6;
+}
+
+.line2{
+    font-size:14px;
+}
+
+.signin-bottom{
+    display:flex;
+    align-items:center;
+    gap:4px;
+}
+
+
+/* ========================= */
+/* Returns Section */
+/* ========================= */
+
+.returns{
+    color:white;
+    margin-left:95px;
+    margin-top:15px;
+    cursor:pointer;
+}
+
+
+/* ========================= */
+/* Cart Section */
+/* ========================= */
+
+.cart{
+    display:flex;
+    align-items:center;
+    color:white;
+    margin-left:95px;
+    cursor:pointer;
+    
+}
+
+.cart i{
+    font-size:28px;
+    margin-right:5px;
+}
+
+.cart p{
+    margin-top:12px;
+}
+
+
+/* ========================= */
+/* Hover Effect */
+/* ========================= */
+
+img:hover,
+.location:hover,
+.search:hover,
+.flagdropdown:hover,
+.signin:hover,
+.returns:hover,
+.cart:hover{
+
+    border:1px solid white;
+}
+
+
+/* now making subnavbar */
+/* ========================= */
+/* Second Navbar */
+/* ========================= */
+
+.panel{
+    height:40px;
+    background-color:#232f3e;
+    color:white;
+
+    display:flex;
+    align-items:center;
+}
+
+.panel-all{
+    display:flex;
+    align-items:center;
+    margin-left:15px;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+
+    padding:8px;
+}
+
+.panel-all i{
+    margin-right:6px;
+}
+
+/* Navigation Links */
+
+.panel-options{
+    display:flex;
+    align-items:center;
+    margin-left:15px;
+}
+
+.panel-options p{
+    margin-right:20px;
+    font-size:14px;
+    cursor:pointer;
+
+    padding:8px;
+}
+
+/* Hover Effect */
+
+.panel-all:hover,
+.panel-options p:hover{
+    border:1px solid white;
+}
+.main img{
+    width:100%;
+    display:block;
+}
+
+.boxes{
+
+    display:flex;
+    justify-content:space-evenly;
+margin-bottom: 50px;
+    margin-top:-2550px;
+}
+
+.container1{
+    padding-top:10px;
+width:23%;
+    height:400px;
+    padding-left:10px;
+font-size: larger;
+    background:white;
+
+    border:1px solid #ddd;
+    }
+.container2{
+padding-top:10px;
+width:23%;
+    height:400px;
+    padding-left:10px;
+font-size: larger;
+    background:white;
+
+    border:1px solid #ddd;
+    }
+.container3{
+padding-top:10px;
+width:23%;
+    height:400px;
+    padding-left:10px;
+font-size: larger;
+    background:white;
+
+    border:1px solid #ddd;
+
+    }
+.container4{
+padding-top:10px;
+width:23%;
+    height:400px;
+    padding-left:10px;
+font-size: larger;
+    background:white;
+
+    border:1px solid #ddd;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 img{
+    padding-right:10px;
+}
+
+.mid{
+    height:300vh;
+    background-color: #cfcece;
+
+}
